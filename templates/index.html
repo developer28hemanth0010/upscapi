@@ -23,11 +23,11 @@
     <br>
     <h1>The API can be used from the URL itself which returns a JSON response</h1><br>
     <h1>The Pattern for the URL</h1><br>
-    <p><b>Lists for the variables in the URL :-</b></p>
-    <p><b>https://upscapi.pythonanywhere.com/{exam}/{gender}/{preference}/{dob}</b></p>
-    <p><b>where exam, gender, preference and dob are variables to be entered by the user</b></p>
+    <p><b>Query the variables in the URL :-</b></p>
+    <p><b>https://upscapi.pythonanywhere.com/play?exam={exam}&gender={gender}pref={preference}&dob={dob}</b></p>
+    <p><b>where exam, gender, preference and dob are variables to be entered by the user</b></p><br>
     <p><b>exam= ['nda', 'cds', 'afcat', 'cds'] <br> gender=['male', 'female'] <br> if exam is NDA preference=['ima', 'ina', 'afa'] <br> if exam is CDS preference= ['ota','ina','afa', 'ima'] <br> if exam is afcat preference= ['afa_gd', 'afa_flying'] <br> Note:- DOB should always be in YYYY-MM-DD form eg. 2002-10-28 </b></p>
-    <p><b>example response:- <br> https://upscapi.pythonanywhere.com/nda/male/afa/2002-10-28</b></p>
+    <p><b>example response:- <br> https://api.upsceligibility.live/play?exam=nda&gender=male&dob=2002-10-28</b></p>
 
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

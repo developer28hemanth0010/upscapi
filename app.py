@@ -75,7 +75,7 @@ def getvalues():
         #ERRORS
 
         elif exam=="cds" and gender=="female" and (preference=="ima" or preference=="ina" or preference=="afa"):
-            dataset={"calculated attempts":"Women are only eligibile to apply for OTA through CDS entry"}
+            dataset={"Calculated attempts":"Women are only eligibile to apply for OTA through CDS entry"}
             return dataset
 
         else:
